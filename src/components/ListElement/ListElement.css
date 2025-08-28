@@ -1,0 +1,24 @@
+
+.list-element {
+  background-color: var(--gray-light);
+  padding: var(--main-padding);
+  border-radius: var(--main-border-radius);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: var(--main-box-shadow);
+  height: var(--main-size);
+}
+
+.trash-button {
+  border: none;
+  border-radius: 50%;
+  padding: 0.8em;
+  display: flex;
+  justify-items: center;
+  box-shadow: var(--main-box-shadow);
+}
+
+.trash-button:hover {
+  cursor: pointer;
+}
